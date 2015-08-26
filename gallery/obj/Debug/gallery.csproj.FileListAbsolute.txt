@@ -1,0 +1,6 @@
+C:\GIT\gallery-for-egorov\gallery\bin\gallery.dll.config
+C:\GIT\gallery-for-egorov\gallery\bin\gallery.dll
+C:\GIT\gallery-for-egorov\gallery\bin\gallery.pdb
+C:\GIT\gallery-for-egorov\gallery\obj\Debug\gallery.csprojResolveAssemblyReference.cache
+C:\GIT\gallery-for-egorov\gallery\obj\Debug\gallery.dll
+C:\GIT\gallery-for-egorov\gallery\obj\Debug\gallery.pdb

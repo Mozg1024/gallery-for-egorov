@@ -57,7 +57,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap\bootstrap.css" />
+    <Content Include="Content\bootstrap\bootstrap.min.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\images\favicon.ico" />
+    <Content Include="index.html" />
+    <Content Include="packages.config" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap\bootstrap.css.map" />
+    <Content Include="Scripts\bootstrap\bootstrap.js" />
+    <Content Include="Scripts\bootstrap\bootstrap.min.js" />
+    <None Include="Scripts\jquery\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\lodash\lodash.js" />
+    <Content Include="Scripts\lodash\lodash.min.js" />
     <Content Include="Web.config" />
+    <Content Include="Scripts\jquery\jquery-2.1.4.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

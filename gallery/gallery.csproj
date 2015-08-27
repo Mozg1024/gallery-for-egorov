@@ -57,29 +57,45 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap\bootstrap.css" />
-    <Content Include="Content\bootstrap\bootstrap.min.css" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\images\favicon.ico" />
+    <Content Include="Content\css\bootstrap\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap\bootstrap.css" />
+    <Content Include="Content\css\bootstrap\bootstrap.min.css" />
+    <Content Include="Content\css\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\css\new.css" />
+    <Content Include="Content\css\uui\clientlibs.css" />
+    <Content Include="Content\css\uui\uui-all.css" />
+    <Content Include="Content\images\arrow484.png" />
+    <Content Include="Content\images\icn_search.png" />
+    <Content Include="Content\images\icons\favicon.ico" />
+    <Content Include="Content\images\icons\search-icon-gray.svg" />
+    <Content Include="Content\images\icons\search-icon-white.svg" />
+    <Content Include="Content\images\ic_logo_UUi.svg" />
+    <Content Include="Content\images\Logo_Epam_Color.svg" />
+    <Content Include="Content\images\Logo_Epam_Gray.svg" />
+    <Content Include="Content\images\Logo_Epam_White.svg" />
+    <Content Include="Content\images\sprite-common.png" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap\bootstrap-theme.css.map" />
-    <Content Include="Content\bootstrap\bootstrap.css.map" />
-    <Content Include="Scripts\bootstrap\bootstrap.js" />
-    <Content Include="Scripts\bootstrap\bootstrap.min.js" />
-    <None Include="Scripts\jquery\jquery-2.1.4.intellisense.js" />
-    <Content Include="Scripts\jquery\jquery-2.1.4.js" />
-    <Content Include="Scripts\jquery\jquery-2.1.4.min.js" />
-    <Content Include="Scripts\lodash\lodash.js" />
-    <Content Include="Scripts\lodash\lodash.min.js" />
+    <Content Include="Content\css\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\css\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\css\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\css\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\css\bootstrap\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap\bootstrap.css.map" />
+    <Content Include="Scripts\libs\bootstrap\bootstrap.js" />
+    <Content Include="Scripts\libs\bootstrap\bootstrap.min.js" />
+    <Content Include="Content\css\fonts\bebasneue_regular-webfont.woff2" />
+    <Content Include="Content\css\fonts\SourceSansPro-Regular.otf.woff" />
+    <Content Include="Content\css\fonts\SourceSansPro-Semibold.otf.woff" />
+    <None Include="Scripts\libs\jquery\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\libs\jquery\jquery-2.1.4.js" />
+    <Content Include="Scripts\libs\jquery\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\libs\lodash\lodash.js" />
+    <Content Include="Scripts\libs\lodash\lodash.min.js" />
+    <Content Include="Scripts\libs\uui\uui-core.min.js" />
     <Content Include="Web.config" />
-    <Content Include="Scripts\jquery\jquery-2.1.4.min.map" />
+    <Content Include="Scripts\libs\jquery\jquery-2.1.4.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +108,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

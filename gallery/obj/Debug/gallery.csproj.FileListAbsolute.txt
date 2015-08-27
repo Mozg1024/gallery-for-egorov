@@ -4,3 +4,9 @@ C:\GIT\gallery-for-egorov\gallery\bin\gallery.pdb
 C:\GIT\gallery-for-egorov\gallery\obj\Debug\gallery.csprojResolveAssemblyReference.cache
 C:\GIT\gallery-for-egorov\gallery\obj\Debug\gallery.dll
 C:\GIT\gallery-for-egorov\gallery\obj\Debug\gallery.pdb
+D:\GIT\gallery\gallery\bin\gallery.dll.config
+D:\GIT\gallery\gallery\bin\gallery.dll
+D:\GIT\gallery\gallery\bin\gallery.pdb
+D:\GIT\gallery\gallery\obj\Debug\gallery.csprojResolveAssemblyReference.cache
+D:\GIT\gallery\gallery\obj\Debug\gallery.dll
+D:\GIT\gallery\gallery\obj\Debug\gallery.pdb

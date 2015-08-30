@@ -27,11 +27,86 @@
 
 input[type=search].form-search {
     background: #fff url(../images/icons/search-icon-gray.svg) no-repeat 97% 50%;
-    color: greenyellow;
     background-size: 18px 18px;
     padding: 0 40px 0 10px;
 }
 
-button {
-    font-family: 'Oswald Regular',Tahoma,sans-serif;
+.album-card {
+    width: 300px;
+    height: 290px;
+    margin: 0 8.5px;
+    display: inline-block;
 }
+
+.album-card .main-img {
+    width: 300px;
+    height: 210px;
+}
+
+.album-card .date {
+    height: 40px;
+    padding: 15px 20px;
+    font-size: 10px;
+}
+
+.album-card .date:hover {
+    cursor: pointer;
+}
+
+.album-card .description {
+    top: 0;
+    height: 170px;
+    padding: 15px 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.album-card .description:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.album-card .description p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.album-card .description hr{
+    margin: 20px auto;
+    width: 53.333333333333%;
+}
+
+/*.album-card .title {
+    word-wrap: break-word;
+    min-height: 52px;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 26px;
+    font-family: bebas_neueregular, sans-serif;
+    font-weight: normal;
+    color: rgb(51, 51, 51);
+    letter-spacing: 0.25px;
+}*/
+
+.album-card .title {
+    padding: 18px 10px 0 0;
+    font-family: 'Oswald Regular',Tahoma,sans-serif;
+    font-size: 22px;
+    /*letter-spacing: -0.2px;*/
+    line-height: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+/*button {
+    font-family: 'Oswald Regular',Tahoma,sans-serif;
+}*/

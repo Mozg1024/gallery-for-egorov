@@ -85,6 +85,11 @@
     <Content Include="Content\css\uui\uui-all.css" />
     <Content Include="Content\css\uui\uui-theme.css" />
     <Content Include="Content\images\arrow484.png" />
+    <Content Include="Content\images\events\conference.png" />
+    <Content Include="Content\images\events\games.png" />
+    <Content Include="Content\images\events\holidays.png" />
+    <Content Include="Content\images\events\party.png" />
+    <Content Include="Content\images\events\theatre.png" />
     <Content Include="Content\images\icn_search.png" />
     <Content Include="Content\images\icons\favicon.ico" />
     <Content Include="Content\images\icons\search-icon-gray.svg" />
@@ -93,6 +98,17 @@
     <Content Include="Content\images\Logo_Epam_Color.svg" />
     <Content Include="Content\images\Logo_Epam_Gray.svg" />
     <Content Include="Content\images\Logo_Epam_White.svg" />
+    <Content Include="Content\images\main\001.png" />
+    <Content Include="Content\images\main\002.png" />
+    <Content Include="Content\images\main\003.png" />
+    <Content Include="Content\images\main\004.png" />
+    <Content Include="Content\images\main\005.png" />
+    <Content Include="Content\images\main\006.png" />
+    <Content Include="Content\images\main\007.png" />
+    <Content Include="Content\images\main\008.png" />
+    <Content Include="Content\images\main\009.png" />
+    <Content Include="Content\images\main\010.png" />
+    <Content Include="Content\images\main\011.png" />
     <Content Include="Content\images\sprite-common.png" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
@@ -166,6 +182,7 @@
     <Content Include="Content\css\fonts\font-sourcesanspro\sourcesanspro-semibold.otf" />
     <Content Include="Content\css\fonts\font-sourcesanspro\sourcesanspro-semibold.ttf" />
     <Content Include="Content\css\fonts\font-sourcesanspro\sourcesanspro-semibold.woff" />
+    <Content Include="Content\css\fonts\bebasneue_regular-webfont.woff2" />
     <None Include="Scripts\libs\jquery\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\libs\jquery\jquery-2.1.4.js" />
     <Content Include="Scripts\libs\jquery\jquery-2.1.4.min.js" />

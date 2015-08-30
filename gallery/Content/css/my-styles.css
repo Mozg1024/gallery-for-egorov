@@ -43,10 +43,23 @@ input[type=search].form-search {
     height: 210px;
 }
 
+.album-card .event-img {
+    margin-top: -2px;
+    height: 22px;
+    width: auto;
+    float: right;
+}
+
+.album-card .description-img {
+    height: 80px;
+    width: auto;
+    margin: -20px 0 2px 0;
+}
+
 .album-card .date {
     height: 40px;
-    padding: 15px 20px;
-    font-size: 10px;
+    padding: 11px 20px;
+    font-size: 12px;
 }
 
 .album-card .date:hover {
@@ -56,16 +69,9 @@ input[type=search].form-search {
 .album-card .description {
     top: 0;
     height: 170px;
-    padding: 15px 20px;
+    padding: 49px 0;
     font-size: 16px;
     text-align: center;
-}
-
-
-.album-card .description:before {
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .album-card .description p {
@@ -75,8 +81,8 @@ input[type=search].form-search {
 
 
 .album-card .description hr{
-    margin: 20px auto;
-    width: 53.333333333333%;
+    margin: 6px auto 13px auto;
+    width: 160px;
 }
 
 /*.album-card .title {
@@ -92,11 +98,13 @@ input[type=search].form-search {
 }*/
 
 .album-card .title {
-    padding: 18px 10px 0 0;
+    padding: 17px 10px 0 0;
+    height: 96px;
+    overflow: hidden;
     font-family: 'Oswald Regular',Tahoma,sans-serif;
     font-size: 22px;
     /*letter-spacing: -0.2px;*/
-    line-height: 25px;
+    line-height: 24px;
     text-transform: uppercase;
     display: inline-block;
 }

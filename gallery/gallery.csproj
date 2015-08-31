@@ -112,6 +112,7 @@
     <Content Include="Content\images\main\010.png" />
     <Content Include="Content\images\main\011.png" />
     <Content Include="Content\images\sprite-common.png" />
+    <Content Include="download.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="Content\css\fonts\glyphicons-halflings-regular.woff2" />

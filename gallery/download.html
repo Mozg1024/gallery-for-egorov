@@ -129,7 +129,7 @@
 
         </section><!--
 
-     --><div class="mini-albums-title">
+        --><div class="mini-albums-title">
             <p>See albums with the same event</p>
         </div>
 
@@ -212,25 +212,73 @@
 
 
         <button type="button" class="uui-button lime-green" data-toggle="modal" data-target="#popup1">Dialog</button>
+
         <div class="modal uui-modal fade" id="popup1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-custom">
                 <div class="modal-content">
+
                     <div class="modal-header">
                         <button type="button" class="uui-button lime-green">
                             <i class="fa fa-download white"></i>
                         </button>
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <button type="button" class="uui-button gray" data-dismiss="modal" aria-hidden="true">
+                            <i class="fa fa-times white"></i>
+                        </button>
                     </div>
+
                     <div class="modal-body">
-                        Modal content
+                        <div id="uuiCarousel" class="uui-carousel carousel slide" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="Content/images/main/011.png" />
+                                </div>
+                                <div class="item">
+                                    <img src="Content/images/main/010.png" />
+                                </div>
+                                <div class="item">
+                                    <img src="Content/images/main/009.png" />
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#uuiCarousel" role="button" data-slide="prev">
+                                <span class="left-arrow"></span>
+                            </a>
+                            <a class="right carousel-control" href="#uuiCarousel" role="button" data-slide="next">
+                                <span class="right-arrow"></span>
+                            </a>
+                        </div>
                     </div>
+
                     <div class="modal-footer">
-                        <button type="button" data-dismiss="modal" class="uui-button">Cancel</button>
-                        <button type="button" class="uui-button lime-green">Save changes</button>
+                        <div class="carousel uui-carousel thumb-carousel slide" id="myCarousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-xs-4"><a href="#"><img src="http://placehold.it/500/bbbbbb/fff&amp;text=1" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#"><img src="http://placehold.it/500/CCCCCC&amp;text=2" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#"><img src="http://placehold.it/500/eeeeee&amp;text=3" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#"><img src="http://placehold.it/500/f4f4f4&amp;text=4" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#"><img src="http://placehold.it/500/fcfcfc/333&amp;text=5" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#"><img src="http://placehold.it/500/f477f4/fff&amp;text=6" class="img-responsive"></a></div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
+
 
 
 
@@ -243,6 +291,36 @@
     <script src="Scripts/libs/uui/uui-core.min.js"></script>
     <script src="Scripts/libs/uui/lib/components/bootstrap-datepicker.js"></script>
     <script src="Scripts/libs/lodash/lodash.js"></script>
+
+    <script>
+        $('.uui-carousel').carousel({
+            interval: 2000
+        });
+
+        $('#myCarousel').carousel({
+            interval: 1000
+        })
+
+        //$('#myCarousel .item').each(function () {
+        //    var next = $(this).next();
+        //    if (!next.length) {
+        //        next = $(this).siblings(':first');
+        //    }
+        //    next.children(':first-child').clone().appendTo($(this));
+
+        //    if (next.next().length > 0) {
+        //        next.next().children(':first-child').clone().appendTo($(this));
+        //    }
+        //    else {
+        //        $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+        //    }
+        //});
+
+        $('#myCarousel').on('slid.bs.carousel', function () {
+            $('#myCarousel .item.next').next()
+            // do something…
+        });
+    </script>
 
 </body>
 

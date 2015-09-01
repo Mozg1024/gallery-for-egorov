@@ -164,6 +164,106 @@ input[type=search].form-search {
     z-index: 25;
 }
 
+.modal-dialog-custom {
+    width: 940px;
+    border: 40px solid #666666;
+    margin: 60px auto 0;
+}
+
+.modal-content {
+    border: none;
+    box-shadow: none;
+}
+
+.modal-header {
+    position: absolute;
+    top: -100px;
+    right: -200px;
+    padding: 0;
+}
+
+.modal-header button{
+    width: 57px;
+    height: 57px;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-backdrop.in {
+  filter: alpha(opacity=85);
+  opacity: .85;
+}
+
+.carousel-control.left {
+    left: -140px;
+}
+
+.carousel-control.right {
+    right: -100px;
+}
+
+.left-arrow {
+    background: url('../images/icons/arrows.png') -40px 0 no-repeat;
+    width: 40px;
+    height: 90px;
+    content: '';
+    position: absolute;
+    top: 30px;
+}
+
+.right-arrow {
+    background: url('../images/icons/arrows.png') 0 0 no-repeat;
+    width: 40px;
+    height: 90px;
+    content: '';
+    position: absolute;
+    top: 30px;
+}
+
+.uui-carousel {
+    border: none;
+}
+
+.modal-footer {
+    position: absolute;
+    bottom: -200px;
+    right: 0;
+    padding: 0;
+    width: 100%;
+    height: 140px;
+    background-color: #2E2E2E;
+    border: none;
+}
+
+/*.thumb-carousel .carousel-inner .active.left {
+    left: -33%;
+}
+
+.thumb-carousel .carousel-inner .next {
+    left:  33%;
+}
+
+.thumb-carousel .carousel-inner .next-next {
+    left:  66%;
+}
+
+.thumb-carousel .carousel-inner .prev {
+    left: -33%;
+}
+
+.thumb-carousel .carousel-inner .prev-prev {
+    left: -66%;
+}*/
+
+/*.carousel-control.left,
+.carousel-control.right {
+    background-image:none;
+}*/
+
+
+
 
 
 

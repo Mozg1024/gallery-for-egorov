@@ -93,6 +93,7 @@
     <Content Include="Content\images\events\party.png" />
     <Content Include="Content\images\events\theatre.png" />
     <Content Include="Content\images\icn_search.png" />
+    <Content Include="Content\images\icons\arrows.png" />
     <Content Include="Content\images\icons\favicon.ico" />
     <Content Include="Content\images\icons\search-icon-gray.svg" />
     <Content Include="Content\images\icons\search-icon-white.svg" />

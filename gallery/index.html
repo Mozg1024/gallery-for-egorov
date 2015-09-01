@@ -36,11 +36,11 @@
 
         <section class="row">
 
-            <div class="col-xs-3">
+            <div class="search-wrap">
                 <input type="search" placeholder="Key Words" class="uui-form-element form-search"/>
-            </div>
+            </div><!--
 
-            <div class="col-xs-2">
+            --><div class="search-wrap">
                 <select placeholder="Location" class="uui-form-element">
                     <option>Armenia</option>
                     <option>Australia</option>
@@ -48,17 +48,17 @@
                     <option>Bulgaria</option>
                     <option>Canada</option>
                 </select>
-            </div>
+            </div><!--
 
-            <div class="col-xs-2">
+            --><div class="search-wrap">
                 <div class="uui-datepicker input-daterange input-group" id="datepicker">
                     <input type="text" class="uui-form-element" name="start" />
                     <span class="input-group-addon">to</span>
                     <input type="text" class="uui-form-element" name="end" />
                 </div>
-            </div>
+            </div><!--
 
-            <div class="col-xs-1 col-xs-push-1">
+            --><div class="search-wrap">
                 <button class="uui-button lime-green">SEARCH</button>
             </div>
 
@@ -246,26 +246,16 @@
 
 
 
-
-
-
-
     </main>
 
     <!--<footer class="footer"></footer>-->
-
-
 
     <script src="Scripts/libs/jquery/jquery-2.1.4.js"></script>
     <script src="Scripts/libs/bootstrap/bootstrap.js"></script>
     <script src="Scripts/libs/uui/uui-core.min.js"></script>
     <script src="Scripts/libs/uui/lib/components/bootstrap-datepicker.js"></script>
-    <script src="Scripts/libs/lodash/lodash.js"></script>
 
-    <script>
-        $("#datepicker").datepicker();
-        UUI.Panels.init();
-    </script>
+    <script src="Scripts/libs/index-script.js"></script>
 
 </body>
 

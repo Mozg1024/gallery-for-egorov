@@ -93,6 +93,7 @@
     <Content Include="Content\images\events\party.png" />
     <Content Include="Content\images\events\theatre.png" />
     <Content Include="Content\images\icn_search.png" />
+    <Content Include="Content\images\icons\arrows-thumb.png" />
     <Content Include="Content\images\icons\arrows.png" />
     <Content Include="Content\images\icons\favicon.ico" />
     <Content Include="Content\images\icons\search-icon-gray.svg" />
@@ -122,6 +123,7 @@
     <Content Include="Content\css\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\css\bootstrap\bootstrap-theme.css.map" />
     <Content Include="Content\css\bootstrap\bootstrap.css.map" />
+    <Content Include="Scripts\libs\albums-script.js" />
     <Content Include="Scripts\libs\bootstrap\bootstrap.js" />
     <Content Include="Scripts\libs\bootstrap\bootstrap.min.js" />
     <Content Include="Content\css\fonts\font-awesome\fonts\fontawesome-webfont.eot" />
@@ -188,10 +190,10 @@
     <Content Include="Content\css\fonts\font-sourcesanspro\sourcesanspro-semibold.woff" />
     <Content Include="Content\css\fonts\bebasneue_regular-webfont.woff2" />
     <None Include="Scripts\libs\jquery\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\libs\download-script.js" />
+    <Content Include="Scripts\libs\index-script.js" />
     <Content Include="Scripts\libs\jquery\jquery-2.1.4.js" />
     <Content Include="Scripts\libs\jquery\jquery-2.1.4.min.js" />
-    <Content Include="Scripts\libs\lodash\lodash.js" />
-    <Content Include="Scripts\libs\lodash\lodash.min.js" />
     <Content Include="Scripts\libs\uui\lib\components\autosize.min.js" />
     <Content Include="Scripts\libs\uui\lib\components\bootstrap-datepicker.js" />
     <Content Include="Scripts\libs\uui\lib\components\bootstrap-select.min.js" />

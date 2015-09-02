@@ -76,6 +76,8 @@
     <Content Include="Content\css\fonts\font-sourcesanspro\sourcesanspro-regular.svg" />
     <Content Include="Content\css\fonts\font-sourcesanspro\sourcesanspro-semibold.svg" />
     <Content Include="Content\css\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\css\my-footer.css" />
+    <Content Include="Content\css\my-header.css" />
     <Content Include="Content\css\my-styles.css" />
     <Content Include="Content\css\uui\lib\components\awesome-bootstrap-checkbox.css" />
     <Content Include="Content\css\uui\lib\components\bootstrap-select.min.css" />
@@ -89,6 +91,7 @@
     <Content Include="Content\images\arrow484.png" />
     <Content Include="Content\images\events\conference.png" />
     <Content Include="Content\images\events\games.png" />
+    <Content Include="Content\images\events\green-games.png" />
     <Content Include="Content\images\events\holidays.png" />
     <Content Include="Content\images\events\party.png" />
     <Content Include="Content\images\events\theatre.png" />

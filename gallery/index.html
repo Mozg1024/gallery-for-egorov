@@ -24,23 +24,106 @@
 
     <link href="Content/css/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" />
 
+    <link href="Content/css/my-header.css" rel="stylesheet" />
     <link href="Content/css/my-styles.css" rel="stylesheet" />
+    <link href="Content/css/my-footer.css" rel="stylesheet" />
 
 </head>
 
 <body>
 
-    <header class="header"></header>
+    <header>
+        <div class="header-first-level">
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="http://www.epam.com">
+                            <img class="logo" src="Content/images/Logo_Epam_Color.svg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Events
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Communities
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            Media
+                        </a>
+                        <div class="arrow"></div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Company
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="pull-right">
+                    <li>
+                        <a href="#">RSS</a>
+                    </li>
+                </ul>
+
+                <button class="uui-button pull-right dark-blue">
+                    <i class="fa fa-search"></i>
+                </button>
+
+            </div>
+        </div>
+
+        <div class="header-second-level">
+            <div class="nav-bar">
+                <ul>
+                    <li class="active">
+                        <a href="#">
+                            All
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Official
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Parties&amp;Fun
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Sports
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
     <main class="main">
 
-        <section class="row">
+        <section class="search-wrap clearfix">
 
-            <div class="search-wrap">
+            <div class="search-input-wrap">
                 <input type="search" placeholder="Key Words" class="uui-form-element form-search"/>
             </div><!--
 
-            --><div class="search-wrap">
+            --><div class="location-wrap">
                 <select placeholder="Location" class="uui-form-element">
                     <option>Armenia</option>
                     <option>Australia</option>
@@ -50,7 +133,7 @@
                 </select>
             </div><!--
 
-            --><div class="search-wrap">
+            --><div class="datepicker-wrap">
                 <div class="uui-datepicker input-daterange input-group" id="datepicker">
                     <input type="text" class="uui-form-element" name="start" />
                     <span class="input-group-addon">to</span>
@@ -58,71 +141,97 @@
                 </div>
             </div><!--
 
-            --><div class="search-wrap">
+            --><div class="search-btn-wrap">
                 <button class="uui-button lime-green">SEARCH</button>
             </div>
 
         </section>
 
-        <br/>
-        <br/>
-
-        <section class="row">
+        <section class="clearfix">
 
             <div class="album-card">
-                <div class="uui-image-text blue">
-                    <img src="Content/images/main/001.png" class="main-img" />
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/conference.png" />
-                        June 12, 2015
+                <a href="albums.html">
+                    <div class="uui-image-text blue">
+                        <img src="Content/images/main/001.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                Some description you can see here. And some description you can read here. Description about this party.
+                                <hr />
+                                3 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/conference.png" />
+                            June 12, 2015
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div class="title">
                     Sec June 2015
                 </div>
             </div><!--
 
          --><div class="album-card">
-                <div class="uui-image-text blue">
-                    <img src="Content/images/main/002.png" class="main-img" />
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/conference.png" />
-                        May 23, 2015
+                <a href="albums.html">
+                    <div class="uui-image-text blue">
+                        <img src="Content/images/main/002.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                <img class="description-img" src="Content/images/events/conference.png" />
+                                <hr />
+                                12 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/conference.png" />
+                            May 23, 2015
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div class="title">
                     EPAM conference in USA
                 </div>
             </div><!--
 
          --><div class="album-card">
-                <div class="uui-image-text blue">
-                    <img src="Content/images/main/003.png" class="main-img" />
-                    <div class="image-text-section description">
-                        <p>
-                            Some description you can see here. And some description you can read here. Description about this party.
-                            <hr />
-                            3 albums
-                        </p>
+                <a href="albums.html">
+                    <div class="uui-image-text blue">
+                        <img src="Content/images/main/003.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                Some description you can see here. And some description you can read here. Description about this party.
+                                <hr />
+                                3 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/conference.png" />
+                            January 12, 2015
+                        </div>
                     </div>
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/conference.png" />
-                        January 12, 2015
-                    </div>
-                </div>
+                </a>
                 <div class="title">
                     Sec may 2015
                 </div>
             </div><!--
 
          --><div class="album-card">
-                <div class="uui-image-text raspberry">
-                    <img src="Content/images/main/004.png" class="main-img" />
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/holidays.png" />
-                        June 12, 2015
+                <a href="albums.html">
+                    <div class="uui-image-text raspberry">
+                        <img src="Content/images/main/004.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                <img class="description-img" src="Content/images/events/holidays.png" />
+                                <hr />
+                                12 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/holidays.png" />
+                            June 12, 2015
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div class="title">
                     Children’s day in Krakow office
                 </div>
@@ -130,112 +239,175 @@
 
         --><div class="album-card">
                 <a href="albums.html">
-                    <div class="uui-image-text lime-green">
-                        <img src="Content/images/main/005.png" class="main-img" />
-                        <div class="image-text-section date">
-                            <img class="event-img" src="Content/images/events/games.png" />
-                            June 12, 2015
-                        </div>
-                    </div>
-                    <div class="title">
-                        Vitebsk lasertag 2015
-                    </div>
+                   <div class="uui-image-text lime-green">
+                       <img src="Content/images/main/005.png" class="main-img" />
+                       <div class="image-text-section description hidden">
+                           <p>
+                               Some description you can see here. And some description you can read here. Description about this party.
+                               <hr />
+                               3 albums
+                           </p>
+                       </div>
+                       <div class="image-text-section date">
+                           <img class="event-img" src="Content/images/events/games.png" />
+                           June 12, 2015
+                       </div>
+                   </div>
                 </a>
-            </div><!--
-
-         --><div class="album-card">
-                <div class="uui-image-text lime-green">
-                    <img src="Content/images/main/006.png" class="main-img" />
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/games.png" />
-                        May 23, 2015
-                    </div>
-                </div>
-                <div class="title">
-                    Gomel lasertag cup
-                </div>
-            </div><!--
-
-         --><div class="album-card">
-                <div class="uui-image-text raspberry">
-                    <img src="Content/images/main/007.png" class="main-img" />
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/party.png" />
-                        January 12, 2015
-                    </div>
-                </div>
-                <div class="title">
-                    Minsk open day for kids 2015
-                </div>
-            </div><!--
-
-         --><div class="album-card">
-                <div class="uui-image-text raspberry">
-                    <img src="Content/images/main/008.png" class="main-img" />
-                    <div class="image-text-section description">
-                        <p>
-                            <img class="description-img" src="Content/images/events/theatre.png" />
-                            <hr />
-                            12 albums
-                        </p>
-                    </div>
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/theatre.png" />
-                        June 12, 2015
-                    </div>
-                </div>
-                <div class="title">
-                    EPAM conference in USA
-                </div>
-            </div><!--
-
-         --><div class="album-card">
-                <div class="uui-image-text raspberry">
-                    <img src="Content/images/main/009.png" class="main-img" />
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/theatre.png" />
-                        January 12, 2015
-                    </div>
-                </div>
-                <div class="title">
-                    Minsk open day for kids 2015
-                </div>
-            </div><!--
-
-         --><div class="album-card">
-                <div class="uui-image-text blue">
-                    <img src="Content/images/main/001.png" class="main-img" />
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/conference.png" />
-                        June 12, 2015
-                    </div>
-                </div>
-                <div class="title">
-                    SEC June 2015
-                </div>
-            </div><!--
-
-         --><div class="album-card">
-                <div class="uui-image-text lime-green">
-                    <img src="Content/images/main/010.png" class="main-img" />
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/games.png" />
-                        June 12, 2015
-                    </div>
-                </div>
                 <div class="title">
                     Vitebsk lasertag 2015
                 </div>
             </div><!--
 
          --><div class="album-card">
-                <div class="uui-image-text raspberry">
-                    <img src="Content/images/main/011.png" class="main-img" />
-                    <div class="image-text-section date">
-                        <img class="event-img" src="Content/images/events/theatre.png" />
-                        June 12, 2015
+                <a href="albums.html">
+                    <div class="uui-image-text lime-green">
+                        <img src="Content/images/main/006.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                <img class="description-img" src="Content/images/events/games.png" />
+                                <hr />
+                                12 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/games.png" />
+                            May 23, 2015
+                        </div>
                     </div>
+                </a>
+                <div class="title">
+                    Gomel lasertag cup
                 </div>
+            </div><!--
+
+         --><div class="album-card">
+                <a href="albums.html">
+                    <div class="uui-image-text raspberry">
+                        <img src="Content/images/main/007.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                Some description you can see here. And some description you can read here. Description about this party.
+                                <hr />
+                                3 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/party.png" />
+                            January 12, 2015
+                        </div>
+                    </div>
+                </a>
+                <div class="title">
+                    Minsk open day for kids 2015
+                </div>
+            </div><!--
+
+         --><div class="album-card">
+                <a href="albums.html">
+                    <div class="uui-image-text raspberry">
+                        <img src="Content/images/main/008.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                <img class="description-img" src="Content/images/events/theatre.png" />
+                                <hr />
+                                12 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/theatre.png" />
+                            June 12, 2015
+                        </div>
+                    </div>
+                </a>
+                <div class="title">
+                    EPAM conference in USA
+                </div>
+            </div><!--
+
+         --><div class="album-card">
+                <a href="albums.html">
+                    <div class="uui-image-text raspberry">
+                        <img src="Content/images/main/009.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                Some description you can see here. And some description you can read here. Description about this party.
+                                <hr />
+                                3 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/theatre.png" />
+                            January 12, 2015
+                        </div>
+                    </div>
+                </a>
+                <div class="title">
+                    Minsk open day for kids 2015
+                </div>
+            </div><!--
+
+         --><div class="album-card">
+                <a href="albums.html">
+                    <div class="uui-image-text blue">
+                        <img src="Content/images/main/001.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                <img class="description-img" src="Content/images/events/conference.png" />
+                                <hr />
+                                12 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/conference.png" />
+                            June 12, 2015
+                        </div>
+                    </div>
+                </a>
+                <div class="title">
+                    SEC June 2015
+                </div>
+            </div><!--
+
+         --><div class="album-card">
+                <a href="albums.html">
+                    <div class="uui-image-text lime-green">
+                        <img src="Content/images/main/010.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                Some description you can see here. And some description you can read here. Description about this party.
+                                <hr />
+                                3 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/games.png" />
+                            June 12, 2015
+                        </div>
+                    </div>
+                </a>
+                <div class="title">
+                    Vitebsk lasertag 2015
+                </div>
+            </div><!--
+
+         --><div class="album-card">
+                <a href="albums.html">
+                    <div class="uui-image-text raspberry">
+                        <img src="Content/images/main/011.png" class="main-img" />
+                        <div class="image-text-section description hidden">
+                            <p>
+                                <img class="description-img" src="Content/images/events/theatre.png" />
+                                <hr />
+                                12 albums
+                            </p>
+                        </div>
+                        <div class="image-text-section date">
+                            <img class="event-img" src="Content/images/events/theatre.png" />
+                            June 12, 2015
+                        </div>
+                    </div>
+                </a>
                 <div class="title">
                     EPAM conference in USA
                 </div>
@@ -243,12 +415,71 @@
 
         </section>
 
-
-
-
     </main>
 
-    <!--<footer class="footer"></footer>-->
+    <footer>
+        <div class="footer-first-level">
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Events
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Communities
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Media
+                        </a>
+                    </li>
+                </ul>
+
+                <button class="uui-button pull-right">
+                    <i class="fa fa-rss"></i>
+                </button>
+
+                <button class="uui-button pull-right">
+                    <i class="fa fa-pied-piper-alt"></i>
+                </button>
+
+            </div>
+        </div>
+
+        <div class="footer-second-level">
+            <div class="nav-bar">
+                <a href="http://www.epam.com">
+                    <img class="logo" src="Content/images/Logo_Epam_Gray.svg" />
+                </a>
+
+                <span class="restrict">
+                    &copy; 2015. EPAM Systems.<br>
+                    This site contains confidential information that should not be shared outside the company. Address <a href="#">Code of Conduct</a> for details.
+                </span>
+
+                <a href="#" class="pull-right">
+                    Support Request
+                </a>
+                <a href="#" class="pull-right">
+                    Editorial Board
+                </a>
+
+            </div>
+        </div>
+    </footer>
 
     <script src="Scripts/libs/jquery/jquery-2.1.4.js"></script>
     <script src="Scripts/libs/bootstrap/bootstrap.js"></script>

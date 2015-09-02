@@ -24,34 +24,127 @@
 
     <link href="Content/css/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" />
 
+    <link href="Content/css/my-header.css" rel="stylesheet" />
     <link href="Content/css/my-styles.css" rel="stylesheet" />
+    <link href="Content/css/my-footer.css" rel="stylesheet" />
 
 </head>
 
 <body>
 
-    <header class="header"></header>
+    <header>
+        <div class="header-first-level">
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="http://www.epam.com">
+                            <img class="logo" src="Content/images/Logo_Epam_Color.svg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Events
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Communities
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            Media
+                        </a>
+                        <div class="arrow"></div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Company
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="pull-right">
+                    <li>
+                        <a href="#">RSS</a>
+                    </li>
+                </ul>
+
+                <button class="uui-button pull-right dark-blue">
+                    <i class="fa fa-search"></i>
+                </button>
+
+            </div>
+        </div>
+
+        <div class="header-second-level">
+            <div class="nav-bar">
+                <ul>
+                    <li class="active">
+                        <a href="#">
+                            All
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Official
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Parties&amp;Fun
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Sports
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
     <main class="main">
 
-        <section class="row">
+        <div class="title-btn-wrap">
+            <button type="button" class="uui-button lime-green title-btn">
+                Download all
+            </button><!--
+            --><button type="button" class="uui-button dark-green title-btn addon">
+                <i class="fa fa-download white"></i>
+            </button>
+        </div>
 
-            <div style="height: 185px">
-                <h1>Vitebsk lasertag 2015</h1>
-                <p>Some description you can see here. And some description you can read here. Description about this party.</p>
-                <p>June 12, 2015</p>
+        <section class="title-wrap">
+            <div class="main-title">
+                <img class="title-img" src="Content/images/events/green-games.png" />
+                Vitebsk lasertag 2015 part 1
             </div>
-
+            <div class="title-description">
+                Some description you can see here. And some description you can read here. Description about this party.
+            </div>
+            <p>June 12, 2015</p>
         </section>
 
-        <br />
-        <br />
-
-        <section class="row">
+        <section>
 
             <div class="download-card">
                 <div class="uui-image-text blue">
                     <img src="Content/images/main/001.png" class="main-img" />
+                </div>
+                <div class="corner-right-bottom hidden">
+                    <span class="fa fa-download white"></span>
                 </div>
             </div><!--
 
@@ -59,11 +152,17 @@
                 <div class="uui-image-text blue">
                     <img src="Content/images/main/002.png" class="main-img" />
                 </div>
+                <div class="corner-right-bottom hidden">
+                    <span class="fa fa-download white"></span>
+                </div>
             </div><!--
 
             --><div class="download-card">
                 <div class="uui-image-text blue">
                     <img src="Content/images/main/003.png" class="main-img" />
+                </div>
+                <div class="corner-right-bottom hidden">
+                    <span class="fa fa-download white"></span>
                 </div>
             </div><!--
 
@@ -71,13 +170,16 @@
                 <div class="uui-image-text raspberry">
                     <img src="Content/images/main/004.png" class="main-img" />
                 </div>
+                <div class="corner-right-bottom hidden">
+                    <span class="fa fa-download white"></span>
+                </div>
             </div><!--
 
             --><div class="download-card">
                 <div class="uui-image-text lime-green">
                     <img src="Content/images/main/005.png" class="main-img" />
                 </div>
-                <div class="corner-right-bottom">
+                <div class="corner-right-bottom hidden">
                     <span class="fa fa-download white"></span>
                 </div>
             </div><!--
@@ -86,7 +188,7 @@
                 <div class="uui-image-text lime-green">
                     <img src="Content/images/main/006.png" class="main-img" />
                 </div>
-                <div class="corner-right-bottom">
+                <div class="corner-right-bottom hidden">
                     <span class="fa fa-download white"></span>
                 </div>
             </div><!--
@@ -95,11 +197,17 @@
                 <div class="uui-image-text raspberry">
                     <img src="Content/images/main/007.png" class="main-img" />
                 </div>
+                <div class="corner-right-bottom hidden">
+                    <span class="fa fa-download white"></span>
+                </div>
             </div><!--
 
             --><div class="download-card">
                 <div class="uui-image-text raspberry">
                     <img src="Content/images/main/008.png" class="main-img" />
+                </div>
+                <div class="corner-right-bottom hidden">
+                    <span class="fa fa-download white"></span>
                 </div>
             </div><!--
 
@@ -107,11 +215,17 @@
                 <div class="uui-image-text raspberry">
                     <img src="Content/images/main/009.png" class="main-img" />
                 </div>
+                <div class="corner-right-bottom hidden">
+                    <span class="fa fa-download white"></span>
+                </div>
             </div><!--
 
             --><div class="download-card">
                 <div class="uui-image-text blue">
                     <img src="Content/images/main/001.png" class="main-img" />
+                </div>
+                <div class="corner-right-bottom hidden">
+                    <span class="fa fa-download white"></span>
                 </div>
             </div><!--
 
@@ -119,21 +233,27 @@
                 <div class="uui-image-text lime-green">
                     <img src="Content/images/main/010.png" class="main-img" />
                 </div>
+                <div class="corner-right-bottom hidden">
+                    <span class="fa fa-download white"></span>
+                </div>
             </div><!--
 
             --><div class="download-card">
                 <div class="uui-image-text raspberry">
                     <img src="Content/images/main/011.png" class="main-img" />
                 </div>
+                <div class="corner-right-bottom hidden">
+                    <span class="fa fa-download white"></span>
+                </div>
             </div>
 
-        </section><!--
+        </section>
 
-        --><div class="mini-albums-title">
-            <p>See albums with the same event</p>
+        <div class="mini-albums-title">
+            See albums with the same event
         </div>
 
-        <section class="row">
+        <section>
 
             <div class="mini-album-card">
                 <div class="uui-image-text lime-green">
@@ -209,112 +329,167 @@
 
         </section>
 
+    </main>
 
+    <footer>
+        <div class="footer-first-level">
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Events
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Communities
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Media
+                        </a>
+                    </li>
+                </ul>
 
-        <button type="button" class="uui-button lime-green" data-toggle="modal" data-target="#popup1">Dialog</button>
+                <button class="uui-button pull-right">
+                    <i class="fa fa-rss"></i>
+                </button>
 
-        <div class="modal uui-modal fade" id="popup1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-custom">
-                <div class="modal-content">
+                <button class="uui-button pull-right">
+                    <i class="fa fa-pied-piper-alt"></i>
+                </button>
 
-                    <div class="modal-header">
-                        <button type="button" class="uui-button lime-green">
-                            <i class="fa fa-download white"></i>
-                        </button>
-                        <button type="button" class="uui-button gray" data-dismiss="modal" aria-hidden="true">
-                            <i class="fa fa-times white"></i>
-                        </button>
-                    </div>
-
-                    <div class="modal-body">
-                        <div id="bigCarousel" class="carousel uui-carousel big-carousel slide" data-ride="carousel">
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                    <img src="Content/images/main/011.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/010.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/009.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/008.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/007.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/006.png" />
-                                </div>
-                            </div>
-                            <a class="left carousel-control" href="#bigCarousel" role="button" data-slide="prev">
-                                <span class="left-arrow"></span>
-                            </a>
-                            <a class="right carousel-control" href="#bigCarousel" role="button" data-slide="next">
-                                <span class="right-arrow"></span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="modal-footer">
-                        <div class="arrow"></div>
-
-                        <div id="thumbCarousel" class="carousel uui-carousel thumb-carousel slide" data-ride="carousel">
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item">
-                                    <img src="Content/images/main/001.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/009.png" />
-                                </div>
-                                <div class="item active">
-                                    <img src="Content/images/main/011.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/007.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/006.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/002.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/003.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/004.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/005.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/008.png" />
-                                </div>
-                                <div class="item">
-                                    <img src="Content/images/main/010.png" />
-                                </div>
-                            </div>
-                            <a class="left carousel-control" href="#thumbCarousel" role="button" data-slide="prev">
-                                <span class="left-arrow"></span>
-                            </a>
-                            <a class="right carousel-control" href="#thumbCarousel" role="button" data-slide="next">
-                                <span class="right-arrow"></span>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
             </div>
         </div>
 
+        <div class="footer-second-level">
+            <div class="nav-bar">
+                <a href="http://www.epam.com">
+                    <img class="logo" src="Content/images/Logo_Epam_Gray.svg" />
+                </a>
 
+                <span class="restrict">
+                    &copy; 2015. EPAM Systems.<br>
+                    This site contains confidential information that should not be shared outside the company. Address <a href="#">Code of Conduct</a> for details.
+                </span>
 
+                <a href="#" class="pull-right">
+                    Support Request
+                </a>
+                <a href="#" class="pull-right">
+                    Editorial Board
+                </a>
 
-    </main>
+            </div>
+        </div>
+    </footer>
 
-    <!--<footer class="footer"></footer>-->
+    <div class="modal uui-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-custom">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="uui-button lime-green">
+                        <i class="fa fa-download white"></i>
+                    </button>
+                    <button type="button" class="uui-button gray" data-dismiss="modal" aria-hidden="true">
+                        <i class="fa fa-times white"></i>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div id="bigCarousel" class="carousel uui-carousel big-carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="Content/images/main/011.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/010.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/009.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/008.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/007.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/006.png" />
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#bigCarousel" role="button" data-slide="prev">
+                            <span class="left-arrow"></span>
+                        </a>
+                        <a class="right carousel-control" href="#bigCarousel" role="button" data-slide="next">
+                            <span class="right-arrow"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <div class="arrow"></div>
+
+                    <div id="thumbCarousel" class="carousel uui-carousel thumb-carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item">
+                                <img src="Content/images/main/001.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/009.png" />
+                            </div>
+                            <div class="item active">
+                                <img src="Content/images/main/011.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/007.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/006.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/002.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/003.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/004.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/005.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/008.png" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/images/main/010.png" />
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#thumbCarousel" role="button" data-slide="prev">
+                            <span class="left-arrow"></span>
+                        </a>
+                        <a class="right carousel-control" href="#thumbCarousel" role="button" data-slide="next">
+                            <span class="right-arrow"></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <script src="Scripts/libs/jquery/jquery-2.1.4.js"></script>
     <script src="Scripts/libs/bootstrap/bootstrap.js"></script>

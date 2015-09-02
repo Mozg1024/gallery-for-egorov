@@ -21,4 +21,14 @@
         interval: 10000
     });
 
+    $(".download-card").hover(function () {
+        $(this).find(".corner-right-bottom").removeClass("hidden");
+    }, function () {
+        $(this).find(".corner-right-bottom").addClass("hidden");
+    });
+
+    $(".download-card").click(function () {
+        $("#myModal").modal("show");
+    });
+
 })();

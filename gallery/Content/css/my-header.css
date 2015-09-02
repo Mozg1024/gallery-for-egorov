@@ -1,0 +1,100 @@
+﻿header ul {
+    margin: 0;
+}
+
+.header-first-level {
+    background-color: #464547;
+    height: 60px;
+    overflow: hidden;
+}
+
+.header-second-level {
+    background-color: #EEF2F5;
+    height: 40px;
+    overflow: hidden;
+}
+
+.header-first-level .nav-bar {
+    min-width: 1280px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-first-level .logo {
+    width: 78px;
+    height: 30px;
+}
+
+.header-first-level .nav-bar li {
+    list-style: none;
+    position: relative;
+    float: left;
+    display: block;
+    font-family: 'Oswald Regular',Tahoma,sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 20px 16px;
+}
+
+.header-first-level .nav-bar li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    outline: none;
+}
+
+.header-first-level .nav-bar li.active a {
+    color: #43B9CB;
+}
+
+.header-first-level .arrow {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 13px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid #464547;
+    border-right: 5px solid #464547;
+    border-bottom: 5px solid #EEF2F5;
+}
+
+.header-first-level .uui-button {
+    height: 60px;
+    width: 60px;
+}
+
+.header-second-level .nav-bar {
+    min-width: 1280px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-second-level .nav-bar ul {
+    margin: 0 0 0 10px;
+}
+
+.header-second-level .nav-bar li {
+    list-style: none;
+    position: relative;
+    float: left;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 12px 15px;
+}
+
+.header-second-level .nav-bar li a {
+    color: #666666;
+    text-decoration: none;
+    display: block;
+    outline: none;
+}
+
+.header-second-level .nav-bar li.active {
+    background-color: #FFFFFF;
+}
+
+.header-second-level .nav-bar li.active a {
+    color: #43B9CB;
+}
